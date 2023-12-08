@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+}
+.degrade{
+	background-image: linear-gradient(black,rgb(0, 0, 218),black );
+	/*linear-gradient(45deg, rgb(18, 113, 221), rgb(22, 52, 219));*/
+	height:92vh;
+	color: white;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align:center;
+}
+.calculadora{
+	position:absolute;
+	border-color: aliceblue;
+	background-color: rgb(0, 0, 255);
+	top: 55%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:20px;
+	padding:15px;
+}
+.botao{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 25px;
+	background-color:rgb(65, 63, 63);
+	border:none;
+	color:white;
+	margin:3px;
+}
+.botao:hover{
+	background-color:black;
+	color: blue;
+}
+
+#resultado{
+	background-color:white;
+	width:225px;
+	height:30px;
+	margin:5px;
+	padding:5px;
+	text-align:right;
+	color:black;
+	font-size:25px;
+	border-radius: 10px;
+}
+
+footer {
+    background: rgb(31, 31, 31);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+.outer-container {
+    background: rgb(31, 31, 31); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: blue;/* Ou a cor desejada para o hover */
+}
+a{
+	color: aquamarine;
+	text-decoration: none;
+}
